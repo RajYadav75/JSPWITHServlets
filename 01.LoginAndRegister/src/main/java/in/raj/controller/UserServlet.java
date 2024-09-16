@@ -34,7 +34,7 @@ public class UserServlet extends HttpServlet {
         dto.setUserEmail(email);
         dto.setUserPhono(Integer.parseInt(phono));
 
-        //TODO -> Call Dao method
+        //TODO -> Call DAO method
         UserDao dao = new UserDao();
         boolean isSaved = dao.saveUser(dto);
 
