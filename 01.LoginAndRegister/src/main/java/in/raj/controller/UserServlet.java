@@ -28,7 +28,7 @@ public class UserServlet extends HttpServlet {
         String email = req.getParameter("email");
         String phono = req.getParameter("phono");
 
-        //TODO -> Set Form data to userdto object for transfer
+        //TODO -> Set Form data to User DTO object for transfer
         UserDto dto = new UserDto();
         dto.setUserName(name);
         dto.setUserEmail(email);
